@@ -3,6 +3,7 @@
   margin: 0;
   box-sizing: border-box;
   font-family: 'Plus Jakarta Sans', sans-serif;
+  color: #3D485A;
 }
 
 
@@ -11,7 +12,7 @@
   justify-content: space-between;
   align-items: center;
   padding: .5em;
-  color: #3D485A;
+  margin-bottom: 1.4rem;
 }
 
 
@@ -30,4 +31,53 @@
   padding: .3rem;
   margin-right: .8rem;
   cursor: pointer;
+}
+
+.post-section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.p-card {
+  border: solid black 2px;
+  padding: .5em;
+  width: 48vw;
+  height: 35vh;
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.world-posts {
+}
+
+.w-cat {
+  color: #5289FF;
+  font-weight: 800;
+}
+
+.title {
+  margin-top: 1.2rem;
+  font-size: 2rem;
+  padding: 0, .3rem;
+  margin-bottom: .3rem;
+}
+
+.date {
+  color: #8D8E90;
+  font-size: .8rem;
+}
+
+.content {
+  margin-top: .5rem;
+  font-size: 1.1rem;
+}
+
+.wp-continue {
+  margin-top: 4rem;
+  color: #5289FF
+}
+
+.design-posts {
+  border: solid blue 2px;
 }
