@@ -16,7 +16,7 @@
 
 
 .nav-link {
-  color: inherit;
+  color: #8D8E90;
   font-size: .9rem;
   margin-left: .3rem
 }
@@ -28,5 +28,6 @@
 
 .nav-search {
   padding: .3rem;
-  margin-right: .8rem
+  margin-right: .8rem;
+  cursor: pointer;
 }
