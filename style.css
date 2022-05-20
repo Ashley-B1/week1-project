@@ -36,19 +36,21 @@
 .post-section {
   display: flex;
   justify-content: space-between;
+  padding: .3rem;
 }
 
 .p-card {
-  border: solid black 2px;
+  border: solid #EEEEEE 6px;
   padding: .5em;
-  width: 48vw;
+  width: 47vw;
   height: 35vh;
-  margin-bottom: 1rem;
+  margin-bottom: 1.8rem;
   display: flex;
   flex-direction: column;
 }
 
-.world-posts {
+.p-card:hover {
+  border: solid #EEEEEE 2px;
 }
 
 .w-cat {
@@ -78,6 +80,29 @@
   color: #5289FF
 }
 
-.design-posts {
-  border: solid blue 2px;
+.d-cat {
+  color: #6EA77A;
+  font-weight: 800;
+}
+
+.dp-content {
+  padding: .8rem 0;
+  width: 95%
+}
+
+
+.dp-continue {
+  margin-top: 1.5rem;
+  color: #5289FF
+}
+
+@media screen and (max-width: 440px) {
+  .post-section {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .p-card {
+    width: 90vw;
+  }
 }
