@@ -24,6 +24,7 @@
 
 .nav-title {
   font-size: 1.8rem;
+  font-weight: 700;
   text-decoration: underline;
 }
 
@@ -93,9 +94,9 @@
 
 
 .dp-continue {
-  margin-top: 1.5rem;
   color: #5289FF;
   font-weight: 600;
+  margin-top: 1rem;
 }
 
 @media screen and (max-width: 440px) {
