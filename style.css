@@ -77,7 +77,8 @@
 
 .wp-continue {
   margin-top: 4rem;
-  color: #5289FF
+  color: #5289FF;
+  font-weight: 600;
 }
 
 .d-cat {
@@ -93,7 +94,8 @@
 
 .dp-continue {
   margin-top: 1.5rem;
-  color: #5289FF
+  color: #5289FF;
+  font-weight: 600;
 }
 
 @media screen and (max-width: 440px) {
