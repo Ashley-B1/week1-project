@@ -5,3 +5,29 @@
   font-family: 'Plus Jakarta Sans', sans-serif;
   color: #3D485A;
 }
+
+.blog-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: .5em;
+  margin-bottom: 1.4rem;
+}
+
+
+.nav-link {
+  color: #8D8E90;
+  font-size: .9rem;
+  margin-left: .3rem
+}
+
+.nav-title {
+  font-size: 1.8rem;
+  text-decoration: underline;
+}
+
+.nav-search {
+  padding: .3rem;
+  margin-right: .8rem;
+  cursor: pointer;
+}
