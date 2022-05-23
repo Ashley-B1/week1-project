@@ -127,3 +127,16 @@
 .sh-summary {
   font-size: 1.2rem;
 }
+
+.bs {
+  font-size: 1.4rem;
+  margin-bottom: .8rem;
+}
+
+.li {
+  margin-left: 3rem;
+}
+
+.items {
+  padding: .2rem;
+}
