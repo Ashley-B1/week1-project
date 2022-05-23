@@ -96,3 +96,34 @@
   margin-bottom: .6rem;
   padding-bottom: .6rem;
 }
+
+.mid-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.sh {
+  padding-bottom: .6rem;
+  margin-bottom: .6rem;
+}
+
+.sub-heading {
+  font-size: 1.5rem;
+  margin-bottom: .4rem;
+}
+
+.sh-intro {
+  font-size: 1.4rem;
+}
+
+.sh-example {
+  border: 1px solid #3D485A;
+  font-size: 1.4rem;
+  width: 100%;
+  font-family: courier, monospace;
+  margin-bottom: .6rem;
+}
+
+.sh-summary {
+  font-size: 1.2rem;
+}
