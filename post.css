@@ -33,14 +33,14 @@
 }
 
 .main-content {
-  border: solid red 2px;
   display: flex;
 }
 
 .blog-content {
-  border: solid lime 2px;
   flex: 6;
   padding: 0 .8rem;
+  height: fit-content;
+  padding-bottom: 4.3rem;
 }
 
 .about-content {
@@ -139,4 +139,26 @@
 
 .items {
   padding: .2rem;
+}
+
+.blog-buttons {
+  margin-top: 4rem;
+}
+
+.post-button {
+  text-decoration: none;
+  padding: .6rem;
+  border-radius: 4rem;
+  font-weight: 500;
+}
+
+.old-post {
+  color: #5289FF;
+  border: solid #5289FF 1px;
+}
+
+.new-post {
+  color: #8D8E90;
+  border: solid #8D8E90 1px;
+  margin-left: .4rem;
 }
